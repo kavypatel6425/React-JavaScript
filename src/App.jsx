@@ -21,6 +21,7 @@ import Lecture_7 from './Lecture-7/Lecture_7';
 import Lecture_8 from './Lecture-8/Lecture_8';
 import Lecture_8_task from './Lecture-8/Componants/Lecture_8_task';
 import Controlled from './Lecture-8/Componants/Controlled';
+import Lecture_9 from './Lecture-9/Lecture_9';
 
 
 function App() {
@@ -51,9 +52,11 @@ function App() {
             {/* <Task_7/>
             <Api_Task/>  */}
             {/* <Lecture_7/> */}
-            <Lecture_8/>
+            {/* <Lecture_8/> */}
             {/* <Lecture_8_task/> */}
             {/* <Controlled/> */}
+
+            <Lecture_9/>
         </>
 
     )
