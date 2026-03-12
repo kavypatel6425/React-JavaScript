@@ -2,7 +2,7 @@ import React from 'react'
 
 function Kavy() {
   return (
-    <div>Kavy</div>
+    <div><P>Kavy patel </P></div>
   )
 }
 
