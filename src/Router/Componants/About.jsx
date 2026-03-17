@@ -18,7 +18,6 @@ function About() {
   }
   return (
     <>
-      <Index />
       <div>About</div>
       <Button onClick={() => navigate("/home")}>Go to Home Page</Button>
 

@@ -1,8 +1,12 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
 function Kavy() {
+  const {id}= useParams()
   return (
-    <div><P>Kavy patel </P></div>
+    <div>
+      <h2>Student Id : {id}</h2>
+    </div>
   )
 }
 

@@ -5,7 +5,6 @@ function Blog() {
     return (
 
         <>
-        <Index/>
         <div>Blog</div>
         </>
     )
