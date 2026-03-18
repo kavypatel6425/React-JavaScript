@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Imagename from '../../assets/img.png';
 import { Link, Outlet, useNavigate } from 'react-router-dom';
+import Button  from 'react-bootstrap/Button';
 
 
 function Index() {
@@ -50,6 +51,12 @@ function Index() {
                         </Nav.Link>
                     </Nav>
                 </Container>
+                
+                <Button>
+                    <Link to={"login"} className='text-decoration-none text-light'>
+                        Login
+                    </Link>
+                </Button>
             </Navbar>
             <Outlet />
         </>

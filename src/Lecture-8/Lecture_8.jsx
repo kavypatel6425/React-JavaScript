@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 
 function Lecture_8() {
-    const [form, setForm] = useState({
-        name: "",
-        Email: "",
-        Password: "",
-    })
+    // const [form, setForm] = useState({
+    //     name: "",
+    //     Email: "",
+    //     Password: "",
+    // })
 
     const [data, setData] = useState()
-    // const [name, setName] = useState("")
-    // const [Email, setEmail] = useState("")
-    // const [Password, setPassword] = useState("")
+    const [name, setName] = useState("")
+    const [Email, setEmail] = useState("")
+    const [Password, setPassword] = useState("")
 
     const [error, setError] = useState({})
     function Submit(e) {
@@ -22,22 +22,22 @@ function Lecture_8() {
             Password: "",
         }
 
-        if (form.name === "") {
+        if (cheakError.name === "") {
             cheakError.name = "Enter Your Name"
         }
 
-        if (form.Email === "") {
+        if (cheakError.Email === "") {
             cheakError.Email = "Enter Your Email"
         } else if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.Email)) {
             cheakError.Password = "Enter Velid Email"
         }
 
-        if (form.Password === "") {
+        if (cheakError.Password === "") {
             cheakError.Password = "Enter Your Password"
         }
-        // else if (form.Password.length < 6) {
-        //     cheakError.Password = "Enter Velid Password"
-        // }
+        else if (cheakError.Password.length < 6) {
+            cheakError.Password = "Enter Velid Password"
+        }
 
         setError(cheakError)
     }
