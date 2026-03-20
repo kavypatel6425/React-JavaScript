@@ -9,8 +9,13 @@ function Login() {
     function submit(e) {
         e.preventDefault();
 
-        if (name === "") {
-            return "Enter Your Name"
+        // if (name === "") {
+        //     return "Enter Your Name"
+        // }
+        if (password == "" && name === "") {
+            return "Enter Your Password"
+        }else if(password.length > 6){
+            return "Enter Your Velid Password"
         }
     }
     return (
