@@ -11,6 +11,7 @@ import Kavy from './Componants/Kavy'
 import Profile from './Componants/Profile'
 import Settings from './Componants/Settings'
 import Login from './Componants/Login'
+import Useeffect from './Lecture-14/Componants/Useeffect'
 
 
 function Main_Router() {
@@ -26,6 +27,7 @@ function Main_Router() {
           <Route path='profile' element={<Profile/>}/>
           <Route path='settings' element={<Settings/>}/>
           <Route path='login' element={<Login/>}/>
+          
           <Route path='*' element={<Notfound />} />
         </Route>
       </Routes>

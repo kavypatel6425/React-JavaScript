@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, Outlet } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 function Index_1() {
     return (
         <>
