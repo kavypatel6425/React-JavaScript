@@ -21,6 +21,10 @@ import ThemeChild from '../Lecture-15/Componants-15/ThemeChild'
 import UseReducer from '../Lecture-17/UseReducer'
 import UseId from '../Lecture-17/UseId'
 import UseTransition from '../Lecture-17/UseTransition'
+import StateLifting from '../Lecture-18/StateLifting'
+import UseMemo from '../Lecture-19/UseMemo'
+import UseCallback from '../Lecture-19/UseCallback'
+// import Lecture3_Header from '../../Lecture-3/Componants/Lecture3_Header'
 
 function Mai_Router_2() {
     const Home = lazy(() => import("./Componans-12/Home_1"))
@@ -51,8 +55,14 @@ function Mai_Router_2() {
                     <Route path='usereducer' element={<UseReducer/>}/>
                     <Route path='useid' element={<UseId/>}/>
                     <Route path='useTransition' element={<UseTransition/>}/>
+                    {/* <Route path='prectice' element={<Prectice/>}/> */}
+                    {/* <Route path='useReducer2' element={<UseReducer_2/>}/> */}
+                    <Route path='stateLifting' element={<StateLifting/>}/>
+                    <Route path='usememo' element={<UseMemo/>}/>
+                    <Route path='usecallback' element={<UseCallback/>}/>
 
                 </Route>
+                    {/* <Route path='lecture3_Header' element={<Lecture3_Header/>}/> */}
             </Routes>
 
 

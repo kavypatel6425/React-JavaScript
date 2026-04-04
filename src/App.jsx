@@ -1,43 +1,43 @@
 import React from 'react'
-import Header from './Componants/Header'
-import Footer from './Componants/Footer'
-import Greeting from './Componants/Greeting';
-import Logo from './Componants/Logo';
-import Navbar from './Componants/Navbar';
-import Card from './Componants/Card';
-import Button from './Componants/Button';
-import UserProfile from './Componants/UserProfile';
-import Counter from './Lecture-5/componamts/Counter';
-import Toggle from './Lecture-5/componamts/Toggle';
-import Profile from './Lecture-5/componamts/Profile';
-import UserCard from './Lecture-5/componamts/UserCard';
-import Locally from './Lecture-5/componamts/locally';
-import Bgcolor from './Lecture-5/componamts/Bgcolor';
-import Task_1 from './Lecture-6/Componants/task_1';
-import Task_7 from './Lecture-6/Componants/Task_7';
-import Task_10 from './Lecture-6/Componants/Task_10';
-import Api_Task from './Api Task/Api_Task';
-import Lecture_7 from './Lecture-7/Lecture_7';
-import Lecture_8 from './Lecture-8/Lecture_8';
-import Lecture_8_task from './Lecture-8/Componants/Lecture_8_task';
-import Controlled from './Lecture-8/Componants/Controlled';
-import Lecture_9 from './Lecture-9/Lecture_9';
+import Header from './Lecture-3/Componants/Header'
+import Footer from './Lecture-3/Componants/Footer'
+import Greeting from './Lecture-3/Componants/Greeting';
+import Logo from './Lecture-3/Componants/Logo';
+import Navbar from './Lecture-3/Componants/Navbar';
+import Card from './Lecture-3/Componants/Card';
+import Button from './Lecture-3/Componants/Button';
+import UserProfile from './Lecture-3/Componants/UserProfile';
+// import Counter from './Lecture-5/componamts/Counter';
+// import Toggle from './Lecture-5/componamts/Toggle';
+// import Profile from './Lecture-5/componamts/Profile';
+// import UserCard from './Lecture-5/componamts/UserCard';
+// import Locally from './Lecture-5/componamts/locally';
+// import Bgcolor from './Lecture-5/componamts/Bgcolor';
+// import Task_1 from './Lecture-6/Componants/task_1';
+// import Task_7 from './Lecture-6/Componants/Task_7';
+// import Task_10 from './Lecture-6/Componants/Task_10';
+// import Api_Task from './Api Task/Api_Task';
+// import Lecture_7 from './Lecture-7/Lecture_7';
+// import Lecture_8 from './Lecture-8/Lecture_8';
+// import Lecture_8_task from './Lecture-8/Componants/Lecture_8_task';
+// import Controlled from './Lecture-8/Componants/Controlled';
+// import Lecture_9 from './Lecture-9/Lecture_9';
 // import Project_Index from './Project/Project_Index';
 
 
 function App() {
     return (
         <>
-            {/* <Header /> */}
-            {/* <Footer /> */}
-            {/* <Greeting /> */}
-            {/* <Logo /> */}
-            {/* <Navbar /> */}
-            {/* <Card /> */}
+            <Header />
+            <Footer />
+            <Greeting />
+            <Logo />
+            <Navbar />
+            <Card />
             {/* <Card title="React" description="A JavaScript library for building UI" /> */}
-            {/* <Button text="Click me" /> */}
-            {/* <UserProfile name="Kavy Patel" role="Frontend Developer" avatar="https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_user_personalization&w=740&q=80"/> */}
-            {/* <UserProfile name="Het Patel" role="Backand Developer" avatar="https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_user_personalization&w=740&q=80"/> */}
+            <Button text="Click me" />
+            <UserProfile name="Kavy Patel" role="Frontend Developer" avatar="https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_user_personalization&w=740&q=80"/>
+            <UserProfile name="Het Patel" role="Backand Developer" avatar="https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_user_personalization&w=740&q=80"/>
 
 
 

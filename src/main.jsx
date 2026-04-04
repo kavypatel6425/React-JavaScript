@@ -8,8 +8,12 @@ import Mai_Router_2 from './Router/Lecture-12/Mai_Router_2.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    {/* <Main_Router /> */}
-    <Mai_Router_2/>
-  </BrowserRouter>
+  // <BrowserRouter>
+  //   {/* <Main_Router /> */}
+  //   <Mai_Router_2/>
+  // </BrowserRouter>
+
+  <StrictMode>
+    <App/>
+  </StrictMode>
 )
