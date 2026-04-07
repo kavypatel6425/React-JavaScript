@@ -24,6 +24,9 @@ import UseTransition from '../Lecture-17/UseTransition'
 import StateLifting from '../Lecture-18/StateLifting'
 import UseMemo from '../Lecture-19/UseMemo'
 import UseCallback from '../Lecture-19/UseCallback'
+import UseAction from '../Lecture-20/UseAction'
+import UseFormStatus from '../Lecture-21/UseForm'
+import UseDeferredValue from '../Lecture-21/UseDeferredValue'
 // import Lecture3_Header from '../../Lecture-3/Componants/Lecture3_Header'
 
 function Mai_Router_2() {
@@ -60,6 +63,10 @@ function Mai_Router_2() {
                     <Route path='stateLifting' element={<StateLifting/>}/>
                     <Route path='usememo' element={<UseMemo/>}/>
                     <Route path='usecallback' element={<UseCallback/>}/>
+                    <Route path='useAction' element={<UseAction/>}/>
+                    <Route path='useAction' element={<UseAction/>}/>
+                    <Route path='useFormStatus' element={<UseFormStatus/>}/>
+                    <Route path='useDeferredValue' element={<UseDeferredValue/>}/>
 
                 </Route>
                     {/* <Route path='lecture3_Header' element={<Lecture3_Header/>}/> */}

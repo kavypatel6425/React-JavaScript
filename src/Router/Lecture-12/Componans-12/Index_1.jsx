@@ -10,21 +10,21 @@ function Index_1() {
             <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
                     <Nav className="me-auto " defaultActiveKey="/home_1">
-                        <Nav.Link>
+                        <Nav>
                             <Link to={"home_1"} className='text-decoration-none text-light'>
                                 Home
                             </Link>
-                        </Nav.Link>
-                        <Nav.Link>
+                        </Nav>
+                        <Nav>
                             <Link to={"about_2"} className='text-decoration-none text-light'>
                                 About
                             </Link>
-                        </Nav.Link>
-                        <Nav.Link>
+                        </Nav>
+                        <Nav>
                             <Link to={"contact_1"} className='text-decoration-none text-light'>
                                 Contact
                             </Link>
-                        </Nav.Link>
+                        </Nav>
                     </Nav>
                 </Container>
 
