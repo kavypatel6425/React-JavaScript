@@ -29,6 +29,7 @@ import UseFormStatus from '../Lecture-21/UseForm'
 import UseDeferredValue from '../Lecture-21/UseDeferredValue'
 import CostomHook from '../Lecture-22/CostomHook'
 import WithMassge from '../Lecture-27/WithMassge'
+import WrapProps from '../Lecture-27/WrapProps'
 
 // import Abc from '../Abc'
 // import useCostomHook_Child from '../Lecture-22/useCostomHook_Child'
@@ -76,6 +77,7 @@ function Mai_Router_2() {
                     {/* <Route path='abc' element={<Abc/>}/> */}
                     {/* <Route path='costomHook_Child' element={<useCostomHook_Child/>}/> */}
                     <Route path='withMassge' element={<WithMassge/>}/>
+                    <Route path='wrapProps' element={<WrapProps/>}/>
 
                 </Route>
                     {/* <Route path='lecture3_Header' element={<Lecture3_Header/>}/> */}

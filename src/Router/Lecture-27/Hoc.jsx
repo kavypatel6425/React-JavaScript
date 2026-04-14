@@ -4,6 +4,8 @@ function Hoc() {
   return (
     <>
         <h2>Hello User</h2>
+
+
     </>
   )
 }
