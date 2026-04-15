@@ -33,6 +33,11 @@ function Index_1() {
                         Login
                     </Link>
                 </Button>
+                <Button>
+                    <Link to={"ragister"} className='text-decoration-none text-light'>
+                        Ragister
+                    </Link>
+                </Button>
             </Navbar>
             <Outlet />
 

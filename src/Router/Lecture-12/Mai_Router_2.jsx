@@ -30,6 +30,10 @@ import UseDeferredValue from '../Lecture-21/UseDeferredValue'
 import CostomHook from '../Lecture-22/CostomHook'
 import WithMassge from '../Lecture-27/WithMassge'
 import WrapProps from '../Lecture-27/WrapProps'
+import Login from '../Componants/Login'
+import Ragister from '../Lecture-28/Ragister'
+import ApiRendar from '../Lecture-28/ApiRendar'
+import Edit_Api from '../Lecture-28/Edit_Api'
 
 // import Abc from '../Abc'
 // import useCostomHook_Child from '../Lecture-22/useCostomHook_Child'
@@ -48,39 +52,44 @@ function Mai_Router_2() {
                     <Route path='about_2' element={<About_1 />} />
                     <Route path='contact_1' element={<Contact_1 />} />
                     <Route path='xyz/:id' element={<Xyz />} />
-                    <Route path='useeffect' element={<Useeffect/>}/>
-                    <Route path='everyrender' element={<EveryRender/>}/>
-                    <Route path='unmount' element={<Unmount/>}/>
-                    <Route path='clickListener' element={<ClickListener/>}/>
-                    <Route path='uselayout' element={<UseLayout/>}/>
-                    <Route path='useRef' element={<UseRef/>}/>
-                    <Route path='useContext' element={<UseContext/>}/>
-                    <Route path='child_1' element={<Child_1/>}/>
-                    <Route path='child_2' element={<Child_2/>}/>
-                    <Route path='child_3' element={<Child_3/>}/>
-                    <Route path='perent' element={<Perent/>}/>
-                    <Route path='theme' element={<Theme/>}/>
-                    <Route path='themechild' element={<ThemeChild/>}/>
-                    <Route path='usereducer' element={<UseReducer/>}/>
-                    <Route path='useid' element={<UseId/>}/>
-                    <Route path='useTransition' element={<UseTransition/>}/>
+                    <Route path='useeffect' element={<Useeffect />} />
+                    <Route path='everyrender' element={<EveryRender />} />
+                    <Route path='unmount' element={<Unmount />} />
+                    <Route path='clickListener' element={<ClickListener />} />
+                    <Route path='uselayout' element={<UseLayout />} />
+                    <Route path='useRef' element={<UseRef />} />
+                    <Route path='useContext' element={<UseContext />} />
+                    <Route path='child_1' element={<Child_1 />} />
+                    <Route path='child_2' element={<Child_2 />} />
+                    <Route path='child_3' element={<Child_3 />} />
+                    <Route path='perent' element={<Perent />} />
+                    <Route path='theme' element={<Theme />} />
+                    <Route path='themechild' element={<ThemeChild />} />
+                    <Route path='usereducer' element={<UseReducer />} />
+                    <Route path='useid' element={<UseId />} />
+                    <Route path='useTransition' element={<UseTransition />} />
                     {/* <Route path='prectice' element={<Prectice/>}/> */}
                     {/* <Route path='useReducer2' element={<UseReducer_2/>}/> */}
-                    <Route path='stateLifting' element={<StateLifting/>}/>
-                    <Route path='usememo' element={<UseMemo/>}/>
-                    <Route path='usecallback' element={<UseCallback/>}/>
-                    <Route path='useAction' element={<UseAction/>}/>
-                    <Route path='useAction' element={<UseAction/>}/>
-                    <Route path='useFormStatus' element={<UseFormStatus/>}/>
-                    <Route path='useDeferredValue' element={<UseDeferredValue/>}/>
-                    <Route path='costomHook' element={<CostomHook/>}/>
+                    <Route path='stateLifting' element={<StateLifting />} />
+                    <Route path='usememo' element={<UseMemo />} />
+                    <Route path='usecallback' element={<UseCallback />} />
+                    <Route path='useAction' element={<UseAction />} />
+                    <Route path='useAction' element={<UseAction />} />
+                    <Route path='useFormStatus' element={<UseFormStatus />} />
+                    <Route path='useDeferredValue' element={<UseDeferredValue />} />
+                    <Route path='costomHook' element={<CostomHook />} />
                     {/* <Route path='abc' element={<Abc/>}/> */}
                     {/* <Route path='costomHook_Child' element={<useCostomHook_Child/>}/> */}
-                    <Route path='withMassge' element={<WithMassge/>}/>
-                    <Route path='wrapProps' element={<WrapProps/>}/>
+                    <Route path='withMassge' element={<WithMassge />} />
+                    <Route path='wrapProps' element={<WrapProps />} />
+
+                    <Route path='login' element={<Login />} />
+                    <Route path='ragister' element={<Ragister />} /> 
+                    <Route path='apiRendar' element={<ApiRendar />} />
+                    <Route path='/editApi/:id' element={<Edit_Api/>} />
 
                 </Route>
-                    {/* <Route path='lecture3_Header' element={<Lecture3_Header/>}/> */}
+                {/* <Route path='lecture3_Header' element={<Lecture3_Header/>}/> */}
             </Routes>
 
 

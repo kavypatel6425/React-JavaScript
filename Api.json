@@ -1,0 +1,23 @@
+{
+  "user": [
+    {
+      "name": "Kavy Patel",
+      "password": "kavy@1304",
+      "email": "kavypatel6425@gmail.com",
+      "id": "1"
+    },
+    {
+      "name": "Het",
+      "password": "het@1234",
+      "email": "het@gmail.com",
+      "id": "2"
+    },
+    {
+      "name": "Hiya",
+      "password": "hiya@1234",
+      "email": "hiya@gmail.com",
+      "id": "3"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

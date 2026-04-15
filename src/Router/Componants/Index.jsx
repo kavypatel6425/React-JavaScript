@@ -54,11 +54,16 @@ function Index() {
                     </Nav>
                 </Container>
 
-                <Button>
+                {/* <Button>
                     <Link to={"login"} className='text-decoration-none text-light'>
                         Login
                     </Link>
-                </Button>
+                </Button> */}
+                {/* <Button>
+                    <Link to={"ragister"} className='text-decoration-none text-light'>
+                        Ragister
+                    </Link>
+                </Button> */}
             </Navbar>
 
             <Outlet />
