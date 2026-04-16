@@ -41,13 +41,16 @@ function Ragister() {
     return (
         <>
             <form action={formAction}>
-                <input name="name" placeholder="Name" />
+                <label htmlFor="name">UserName :</label>
+                <input name="name" placeholder="Enter Your UserName" />
                 <br /><br />
 
-                <input name="email" placeholder="Email" />
+                <label htmlFor="email">Email :</label>
+                <input name="email" placeholder="Enter Your Email" />
                 <br /><br />
 
-                <input name="password" placeholder="Password" />
+                <label htmlFor="password">Password :</label>
+                <input name="password" placeholder="Enter Your Password" />
                 <br /><br />
 
                 <p style={{ color: "red" }}>

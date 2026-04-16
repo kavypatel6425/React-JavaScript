@@ -34,6 +34,7 @@ import Login from '../Componants/Login'
 import Ragister from '../Lecture-28/Ragister'
 import ApiRendar from '../Lecture-28/ApiRendar'
 import Edit_Api from '../Lecture-28/Edit_Api'
+import ErrorBoundary from '../ErrorBoundary'
 
 // import Abc from '../Abc'
 // import useCostomHook_Child from '../Lecture-22/useCostomHook_Child'
@@ -47,8 +48,11 @@ function Mai_Router_2() {
                 <Route path='/' element={<Index_1 />}>
                     <Route path='home_1' element={
                         <Suspense fallback={<p>Loading...</p>}>
-                            <Home />
+                            <ErrorBoundary>
+                                <Home />
+                            </ErrorBoundary>
                         </Suspense>} />
+                    {/* <Edit_Api /> */}
                     <Route path='about_2' element={<About_1 />} />
                     <Route path='contact_1' element={<Contact_1 />} />
                     <Route path='xyz/:id' element={<Xyz />} />
@@ -84,11 +88,14 @@ function Mai_Router_2() {
                     <Route path='wrapProps' element={<WrapProps />} />
 
                     <Route path='login' element={<Login />} />
-                    <Route path='ragister' element={<Ragister />} /> 
+                    <Route path='ragister' element={<Ragister />} />
                     <Route path='apiRendar' element={<ApiRendar />} />
-                    <Route path='/editApi/:id' element={<Edit_Api/>} />
+                    <Route path='/editApi/:id' element={<Edit_Api />} />
+
+
 
                 </Route>
+
                 {/* <Route path='lecture3_Header' element={<Lecture3_Header/>}/> */}
             </Routes>
 
