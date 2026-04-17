@@ -35,6 +35,7 @@ import Ragister from '../Lecture-28/Ragister'
 import ApiRendar from '../Lecture-28/ApiRendar'
 import Edit_Api from '../Lecture-28/Edit_Api'
 import ErrorBoundary from '../ErrorBoundary'
+import CounterReducer from '../Lecture-29/counterReducer'
 
 // import Abc from '../Abc'
 // import useCostomHook_Child from '../Lecture-22/useCostomHook_Child'
@@ -93,6 +94,7 @@ function Mai_Router_2() {
                     <Route path='/editApi/:id' element={<Edit_Api />} />
 
 
+                    <Route path='counterReducer' element={<CounterReducer />} />
 
                 </Route>
 
