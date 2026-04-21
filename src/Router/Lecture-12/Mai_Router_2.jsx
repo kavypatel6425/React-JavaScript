@@ -36,6 +36,8 @@ import ApiRendar from '../Lecture-28/ApiRendar'
 import Edit_Api from '../Lecture-28/Edit_Api'
 import ErrorBoundary from '../ErrorBoundary'
 import CounterReducer from '../Lecture-29/counterReducer'
+import ArrayReducer from '../Lecture-29/Task/ArrayReducer'
+import ToDoReducer from '../Lecture-29/Task/ToDoReducer'
 
 // import Abc from '../Abc'
 // import useCostomHook_Child from '../Lecture-22/useCostomHook_Child'
@@ -95,6 +97,8 @@ function Mai_Router_2() {
 
 
                     <Route path='counterReducer' element={<CounterReducer />} />
+                    <Route path='arrayReducer' element={<ArrayReducer />} />
+                    <Route path='todoReducer' element={<ToDoReducer />} />
 
                 </Route>
 
