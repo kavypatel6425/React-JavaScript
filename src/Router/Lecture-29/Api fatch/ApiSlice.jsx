@@ -1,19 +1,18 @@
-import { createSlice } from '@reduxjs/toolkit'
-import axios from 'axios'
-import React from 'react'
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    value: [{}],
-}
+  users: [],
+};
 
-axios.get("http://localhost:3000/user")
+const apiSlice = createSlice({
+  name: "users",
+  initialState,
+  reducers: {
+    // addUser: (state, action) => {
+    //   state.users.push(action.payload);
+    // },
+  },
+});
 
-const ApiSlice=createSlice({
-    name:"updateApi",
-    initialState,
-
-    
-    
-})
-
-export default ApiSlice
+export const { addUser } = apiSlice.actions;
+export default apiSlice.reducer;

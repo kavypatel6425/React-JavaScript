@@ -8,45 +8,21 @@
     },
     {
       "name": "Het Patel",
-      "password": "het@1234",
       "email": "het@gmail.com",
-      "id": "2"
+      "password": "het@1234",
+      "id": "dG5fUdTIJms"
     },
     {
       "name": "Hiya",
-      "password": "hiya@2525",
+      "email": "",
+      "password": "",
+      "id": "lKcPDrNXhlU"
+    },
+    {
+      "name": "Hiya",
       "email": "hiya@gmail.com",
-      "id": "3"
-    },
-    {
-      "name": "Aastha",
-      "password": "aastha@2525",
-      "email": "aastha@gmail.com",
-      "id": "4"
-    },
-    {
-      "name": "Anjali",
-      "password": "anjali@1234",
-      "email": "anjali@gmail.com",
-      "id": "5"
-    },
-    {
-      "name": "Vishvdeep",
-      "password": "vishvdeep@1234",
-      "email": "vishvdeep@gmail.com",
-      "id": "5"
-    },
-    {
-      "name": "Harsh",
-      "password": "harsh@1234",
-      "email": "harsh@gmail.com",
-      "id": "6"
-    },
-    {
-      "name": "saloni",
-      "password": "saloni@1234",
-      "email": "saloni@gmail.com",
-      "id": "7"
+      "password": "hiya21234",
+      "id": "fBvBNXvEGMQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

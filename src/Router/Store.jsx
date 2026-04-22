@@ -6,11 +6,12 @@ import TodoSlice from './Lecture-29/Task/TodoSlice'
 import ApiSlice from './Lecture-29/Api fatch/ApiSlice'
 
 
+
 export const Store = configureStore({
   reducer: {
     counter: counterReducer,
     array: ArraySlice,
     todo: TodoSlice,
-    apiupdate:ApiSlice,
+    users:ApiSlice,
   }
 })
