@@ -43,6 +43,8 @@ function UseRef() {
       <button onClick={(() => setCount(count + 1))}>Click</button>
       <h2>After:{count}</h2>
 
+      <p>hallo</p>
+
 
     </>
   )
