@@ -8,9 +8,9 @@ const apiSlice = createSlice({
   name: "users",
   initialState,
   reducers: {
-    // addUser: (state, action) => {
-    //   state.users.push(action.payload);
-    // },
+    addUser: (state, action) => {
+      state.users.push(action.payload);
+    },
   },
 });
 
